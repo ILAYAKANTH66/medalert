@@ -1,0 +1,26 @@
+{
+  "name": "MedAlert",
+  "short_name": "MedAlert",
+  "description": "Smart medicine reminders with 3-level escalation and caretaker sync",
+  "start_url": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8fafc",
+  "theme_color": "#0d9488",
+  "categories": ["health", "medical", "productivity"],
+  "icons": [
+  {
+    "src": "/icon-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png",
+    "purpose": "any maskable"
+  },
+  {
+    "src": "/icon-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any maskable"
+  }
+]
+}
