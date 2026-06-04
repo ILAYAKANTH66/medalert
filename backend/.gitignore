@@ -1,0 +1,8 @@
+.env
+target/
+*.class
+.idea/
+*.iml
+.settings/
+.project
+.classpath
