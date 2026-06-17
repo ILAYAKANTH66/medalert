@@ -13,7 +13,7 @@
 // ─── Constants ────────────────────────────────────────────────────────────────
 
 const API_BASE =
-  process.env.NEXT_PUBLIC_API_URL ?? 'https://medalert-production.up.railway.app/api';
+  process.env.NEXT_PUBLIC_API_URL ?? 'https://efficient-forgiveness-production.up.railway.app/api';
 
 /** Request timeout in milliseconds */
 const TIMEOUT_MS = 15_000;

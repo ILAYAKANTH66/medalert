@@ -214,7 +214,7 @@ async function logDoseFromSW(medicineId, status, reminderTime, reminderDate) {
   const token = clientPrefs.token;
   const apiUrl =
   clientPrefs.apiUrl ||
-  'https://medalert-production.up.railway.app/api';
+  'https://efficient-forgiveness-production.up.railway.app/api';
 
   if (!token) {
     console.error('[SW] Cannot log dose: No auth token found.');

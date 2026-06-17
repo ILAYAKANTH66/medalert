@@ -156,7 +156,7 @@ export function PatientAppProvider({ children }: { children: React.ReactNode }) 
         browserEnabled: preferences.browserNotificationsEnabled,
         reminderFrequencyMinutes: preferences.reminderFrequencyMinutes,
         token: token || null,
-        apiUrl: process.env.NEXT_PUBLIC_API_URL ?? 'https://medalert-production.up.railway.app/api',
+        apiUrl: process.env.NEXT_PUBLIC_API_URL ?? 'https://efficient-forgiveness-production.up.railway.app/api',
       },
     });
   }, [preferences, token]);
@@ -483,7 +483,7 @@ export function PatientAppProvider({ children }: { children: React.ReactNode }) 
             key: 'main',
             ...(existing || {}),
             token: token,
-            apiUrl: process.env.NEXT_PUBLIC_API_URL ?? 'https://medalert-production.up.railway.app/api',
+            apiUrl: process.env.NEXT_PUBLIC_API_URL ?? 'https://efficient-forgiveness-production.up.railway.app/api',
           };
           putToStore(db, 'prefs', updated);
         });
